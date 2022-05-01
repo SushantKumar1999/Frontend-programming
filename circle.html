@@ -1,0 +1,12 @@
+<form>
+    <input type="number" id="radius" placeholder="enter the radius" />
+    <input type="button" value="submit" onclick="calculateArea()" />
+</form>
+<script>
+    function calculateArea() {
+        var r=document.getElementById("radius").value;
+        var area= 3.14 * r * r;
+        console.log(area);
+        
+    }
+</script>
